@@ -1,0 +1,10 @@
+en:
+  activerecord:
+    errors:
+      models:
+        spectacle:
+          attributes:
+            range:
+              invalid_type: must be range of dates (api params 'start_date', 'finish_date')
+              wrong_direction: finish date must be greater than start date
+              crossing_ranges: date range crossing with existing ranges
